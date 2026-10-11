@@ -1,0 +1,12 @@
+
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+cyber_echo.db
+cyber_echo.db-*
+*.db
+*.db-journal
+auto_response_last_alert.txt
+*.log
