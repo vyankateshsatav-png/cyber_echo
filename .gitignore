@@ -1,0 +1,27 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+
+# Databases and their support files
+cyber_echo.db
+cyber_echo.db-*
+*.db
+*.db-journal
+
+# Logs and state files written by the program
+*.log
+auto_response_last_alert.txt
+auto_response_defender_time.txt
+
+# Owner security data: face models, encrypted vault, open copies, snapshots
+models/
+vault/
+granted/
+snapshots/
+*.vault
+*.tmp
